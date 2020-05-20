@@ -1,5 +1,4 @@
-# retropie_bgm
-Retropie Backgroud Music
+# Retropie Backgroud Music
 
 Este script reproduce música de fondo en EmulationStation dentro de una instalación de Retropie  
 Todo el mérito pertenece al usuario [Livewire](https://retropie.org.uk/forum/user/livewire) de los foros de [retropie.co.uk](https://retropie.org.uk/forum/topic/347/background-music-continued-from-help-support)  

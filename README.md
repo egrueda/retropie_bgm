@@ -17,12 +17,12 @@ sudo apt-get install python-pygame
 
 Descargar el archivo bgmusic.py
 ```
-wget -q -O /hope/pi/bgmusic.py https://raw.githubusercontent.com/egrueda/retropie_bgm/master/bgmusic.py
+wget -q -O /home/pi/bgmusic.py https://raw.githubusercontent.com/egrueda/retropie_bgm/master/bgmusic.py
 ```
 
 Hacer el script ejecutable
 ```
-chmod +x /hope/pi/bgmusic.py
+chmod +x /home/pi/bgmusic.py
 ```
 
 ## 3. Instalar el script de inicio
@@ -30,7 +30,7 @@ chmod +x /hope/pi/bgmusic.py
 Descargar e instalar el script de inicio
 ```
 wget -q -O bgmusic.service https://raw.githubusercontent.com/egrueda/retropie_bgm/master/bgmusic.service
-mv bgmusic.service /etc/systemd/system/bgmusic.service
+sudo mv bgmusic.service /etc/systemd/system/bgmusic.service
 ```
 
 Iniciar el script

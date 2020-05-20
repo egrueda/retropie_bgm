@@ -1,0 +1,12 @@
+[Unit]
+Description=Background music for RetroPie
+After=network.target
+
+[Service]
+PrivateTmp=true
+Type=simple
+ExecStart=/home/pi/bgmusic.py
+
+[Install]
+WantedBy=multi-user.target
+
